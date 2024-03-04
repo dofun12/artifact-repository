@@ -1,12 +1,9 @@
-package org.lemanoman.videovizartifactrepository.controller;
+package org.lemanoman.artifactrepository.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.node.ObjectNode;
-import org.lemanoman.videovizartifactrepository.dto.ArtifactDTO;
-import org.lemanoman.videovizartifactrepository.dto.ResponseDTO;
-import org.lemanoman.videovizartifactrepository.model.Artifact;
-import org.lemanoman.videovizartifactrepository.service.ArtifactService;
+import org.lemanoman.artifactrepository.dto.ArtifactDTO;
+import org.lemanoman.artifactrepository.dto.ResponseDTO;
+import org.lemanoman.artifactrepository.model.Artifact;
+import org.lemanoman.artifactrepository.service.ArtifactService;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.InputStreamResource;
@@ -20,8 +17,6 @@ import java.io.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Date;
-import java.util.UUID;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/v1/file")

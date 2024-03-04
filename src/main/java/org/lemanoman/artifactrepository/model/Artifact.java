@@ -1,7 +1,7 @@
-package org.lemanoman.videovizartifactrepository.model;
+package org.lemanoman.artifactrepository.model;
 
 import jakarta.persistence.*;
-import org.lemanoman.videovizartifactrepository.interfaces.MergeableModel;
+import org.lemanoman.artifactrepository.interfaces.MergeableModel;
 
 import java.io.Serializable;
 import java.util.Date;

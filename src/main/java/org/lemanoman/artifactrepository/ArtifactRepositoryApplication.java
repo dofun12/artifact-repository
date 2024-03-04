@@ -1,13 +1,13 @@
-package org.lemanoman.videovizartifactrepository;
+package org.lemanoman.artifactrepository;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VideovizArtifactRepositoryApplication {
+public class ArtifactRepositoryApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(VideovizArtifactRepositoryApplication.class, args);
+        SpringApplication.run(ArtifactRepositoryApplication.class, args);
     }
 
 }

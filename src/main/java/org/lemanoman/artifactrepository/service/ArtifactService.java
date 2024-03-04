@@ -1,8 +1,7 @@
-package org.lemanoman.videovizartifactrepository.service;
+package org.lemanoman.artifactrepository.service;
 
-import org.lemanoman.videovizartifactrepository.model.Artifact;
-import org.lemanoman.videovizartifactrepository.repository.ArtifactRepository;
-import org.springframework.data.jpa.repository.JpaRepository;
+import org.lemanoman.artifactrepository.model.Artifact;
+import org.lemanoman.artifactrepository.repository.ArtifactRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

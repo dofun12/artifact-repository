@@ -1,6 +1,6 @@
-package org.lemanoman.videovizartifactrepository.dto;
+package org.lemanoman.artifactrepository.dto;
 
-import org.lemanoman.videovizartifactrepository.model.Artifact;
+import org.lemanoman.artifactrepository.model.Artifact;
 
 import java.util.Date;
 

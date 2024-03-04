@@ -1,11 +1,9 @@
-package org.lemanoman.videovizartifactrepository.service;
+package org.lemanoman.artifactrepository.service;
 
-import org.lemanoman.videovizartifactrepository.interfaces.MergeableModel;
+import org.lemanoman.artifactrepository.interfaces.MergeableModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Objects;
 
 public class GenericService<T extends MergeableModel<T,ID>, ID> {

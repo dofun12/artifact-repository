@@ -1,4 +1,4 @@
-package org.lemanoman.videovizartifactrepository.dto;
+package org.lemanoman.artifactrepository.dto;
 
 import java.util.List;
 

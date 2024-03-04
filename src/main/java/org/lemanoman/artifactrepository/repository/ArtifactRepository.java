@@ -1,6 +1,6 @@
-package org.lemanoman.videovizartifactrepository.repository;
+package org.lemanoman.artifactrepository.repository;
 
-import org.lemanoman.videovizartifactrepository.model.Artifact;
+import org.lemanoman.artifactrepository.model.Artifact;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
