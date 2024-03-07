@@ -10,6 +10,8 @@ public class ArtifactDTO {
     private String name;
     private String description;
     private String version;
+
+    private String checksum;
     private String buildNumber;
     private Date dateCreated;
 
@@ -28,6 +30,7 @@ public class ArtifactDTO {
         this.version = artifact.getVersion();
         this.buildNumber = artifact.getBuildNumber();
         this.dateCreated = artifact.getDateCreated();
+        this.checksum = artifact.getChecksum();
     }
 
     public Artifact toModel(){
@@ -39,6 +42,7 @@ public class ArtifactDTO {
         artifact.setVersion(this.version);
         artifact.setBuildNumber(this.buildNumber);
         artifact.setDateCreated(this.dateCreated);
+        artifact.setChecksum(this.checksum);
         return artifact;
     }
 
@@ -96,5 +100,13 @@ public class ArtifactDTO {
 
     public void setDateCreated(Date dateCreated) {
         this.dateCreated = dateCreated;
+    }
+
+    public String getChecksum() {
+        return checksum;
+    }
+
+    public void setChecksum(String checksum) {
+        this.checksum = checksum;
     }
 }

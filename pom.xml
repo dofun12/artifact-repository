@@ -10,7 +10,7 @@
     </parent>
     <groupId>org.lemanoman</groupId>
     <artifactId>artifact-repository</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>videoviz-artifact-repository</name>
     <description>videoviz-artifact-repository</description>
     <properties>
